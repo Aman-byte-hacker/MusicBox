@@ -1,0 +1,280 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<style>
+h2 {text-align: center}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="DJoz Template">
+    <meta name="keywords" content="DJoz, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MusicBox | About</title>
+
+    <!-- Google Font -->
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap' %}" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/barfiller.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/nowfont.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/rockville.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/slicknav.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header header--normal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <div class="header__logo">
+                        <a href="/"><img src="{% static 'img/logo.png' %}" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-10">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li class="active"><a href="/about">About</a></li>
+                                <li><a href="/videos">Videos</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__right__social">
+                            <a href="https://twitter.com/shreynish" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/_shreynish_/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCMnqgFB5wksQDHTVy39kcxg" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <span>About</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Skills Section Begin -->
+    <section class="skills spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 p-0">
+                    <div class="skills__content">
+                        <div class="section-title">
+                            <h2>MusicBox</h2>
+                            <h1>BoxFamily</h1>
+                        </div>
+                        <p>MusicBox knows how to move your mind, body and soul by delivering tracks that stand out
+                            from the norm.</p>
+                        <div class="skill__bar__item">
+                            <p>Trap</p>
+                            <div id="bar1" class="barfiller">
+                                <span class="tip"></span>
+                                <span class="fill" data-percentage="95"></span>
+                            </div>
+                        </div>
+                        <div class="skill__bar__item">
+                            <p>Soul</p>
+                            <div id="bar2" class="barfiller">
+                                <span class="tip"></span>
+                                <span class="fill" data-percentage="85"></span>
+                            </div>
+                        </div>
+                        <div class="skill__bar__item">
+                            <p>Remix and mash up</p>
+                            <div id="bar3" class="barfiller">
+                                <span class="tip"></span>
+                                <span class="fill" data-percentage="98"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <div class="skills__video set-bg" data-setbg="{% static 'img/skill-video1.jpg' %}">
+                        <a href="https://www.youtube.com/watch?v=5ZWov3SNNOs" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section End -->
+
+    
+    <section><div></div></section>
+    <!-- About Pic Begin -->
+    <div class="about-pic" position='fixed'>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 p-0">
+                            <img src="{% static 'img/about/ap-1.jpg' %}" alt="">
+                            <img src="{% static 'img/about/ap-2.jpg' %}" alt="">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 p-0">
+                            <img src="{% static 'img/about/ap-3.jpg' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-8 col-sm-8 p-0">
+                            <img src="{% static 'img/about/ap-4.jpg' %}" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 p-0">
+                            <img src="{% static 'img/about/ap-5.jpg' %}" alt="">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 p-0">
+                            <img src="{% static 'img/about/ap-6.jpg' %}" alt="">
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-8 p-0">
+                            <img src="{% static 'img/about/ap-7.jpg' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Pic End -->
+
+    <!-- About Services Section Begin -->
+    <section class="about-services spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title center-title">
+                        <h2>WHERE DO We PLAY</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="about__services__item">
+                        <div class="about__services__item__pic set-bg" data-setbg="{% static 'img/services/as-1.jpg' %}">
+                            <div class="icon">
+                                <img src="{% static 'img/services/as-icon-1.png' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="about__services__item__text">
+                            <h4>Wedding</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="about__services__item">
+                        <div class="about__services__item__pic set-bg" data-setbg="{% static 'img/services/as-2.jpg' %}">
+                            <div class="icon">
+                                <img src="{% static 'img/services/as-icon-2.png' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="about__services__item__text">
+                            <h4>Clubs and bar</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="about__services__item">
+                        <div class="about__services__item__pic set-bg" data-setbg="{% static 'img/services/as-3.jpg' %}">
+                            <div class="icon">
+                                <img src="{% static 'img/services/as-icon-3.png' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="about__services__item__text">
+                            <h4>Corporate events</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Services Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer footer--normal spad set-bg" data-setbg="{% static 'img/footer-bg.png' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer__address">
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <p>Phone</p>
+                                <h6>0000000000</h6>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <p>Email</p>
+                                <h6>ishreynish@gmail.com</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 col-md-6">
+                    <div class="footer__social">
+                        <h2>MusicBox</h2>
+                        <div class="footer__social__links">
+                            <a href="https://twitter.com/shreynish" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/_shreynish_/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCMnqgFB5wksQDHTVy39kcxg" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-md-6">
+                    <div class="footer__newslatter">
+                        <h4>Stay With me</h4>
+                        <form action="#">
+                            <input type="text" placeholder="Email">
+                            <button type="submit"><i class="fa fa-send-o"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nicescroll.min.js' %}"></script>
+    <script src="{% static 'js/jquery.barfiller.js' %}"></script>
+    <script src="{% static 'js/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'js/jquery.slicknav.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+    <!-- Music Plugin -->
+    <script src="{% static 'js/jquery.jplayer.min.js' %}"></script>
+    <script src="{% static 'js/jplayerInit.js' %}"></script>
+</body>
+
+</html>

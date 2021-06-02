@@ -1,0 +1,201 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="DJoz Template">
+    <meta name="keywords" content="DJoz, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MusicBox | Contact</title>
+
+    <!-- Google Font -->
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap' %}" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/barfiller.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/nowfont.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/rockville.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/slicknav.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header header--normal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <div class="header__logo">
+                        <a href="/"><img src="{% static 'img/logo.png' %}" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-10">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="./videos">Videos</a></li>
+                                <li class="active"><a href="/contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__right__social">
+                            <a href="https://twitter.com/shreynish" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/_shreynish_/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCMnqgFB5wksQDHTVy39kcxg" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="#"><i class="fa fa-home"></i> Home</a>
+                        <span>Contact</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <!-- Map Begin -->
+    <div class="map">
+        <div class="container">
+            <iframe
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=alwar+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                height="585" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <!-- Map End -->
+
+    <!-- Contact Section Begin -->
+    <section class="contact spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="contact__address">
+                        <div class="section-title">
+                            <h2>Contact info</h2>
+                        </div>
+                        <ul>
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <h5>Address</h5>
+                                <p>Alwar, Rajasthan, India</p>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <h5>Phone</h5>
+                                <span>0000000000</span>
+                                <span>0000000000</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <h5>Email</h5>
+                                <p>ishreynish@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="contact__form">
+                        <div class="section-title">
+                            <h2>Get in touch</h2>
+                        </div>
+                        <form action="#">
+                            <div class="input__list">
+                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Email">
+                                <input type="text" placeholder="Website">
+                            </div>
+                            <textarea placeholder="Comment"></textarea>
+                            <button type="submit" class="site-btn">SEND MESSAGE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer footer--normal spad set-bg" data-setbg="{% static 'img/footer-bg.png' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer__address">
+                        <ul>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <p>Phone</p>
+                                <h6>+91 7733988516</h6>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <p>Email</p>
+                                <h6>ishreynish@gmail.com</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 col-md-6">
+                    <div class="footer__social">
+                        <h2>MusicBox</h2>
+                        <div class="footer__social__links">
+                            <a href="https://twitter.com/shreynish" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/_shreynish_/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UCMnqgFB5wksQDHTVy39kcxg" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-md-6">
+                    <div class="footer__newslatter">
+                        <h4>Stay With me</h4>
+                        <form action="#">
+                            <input type="text" placeholder="Email">
+                            <button type="submit"><i class="fa fa-send-o"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/jquery.nicescroll.min.js' %}"></script>
+    <script src="{% static 'js/jquery.barfiller.js' %}"></script>
+    <script src="{% static 'js/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'js/jquery.slicknav.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+    <!-- Music Plugin -->
+    <script src="{% static 'js/jquery.jplayer.min.js' %}"></script>
+    <script src="{% static 'js/jplayerInit.js' %}"></script>
+</body>
+
+</html>
