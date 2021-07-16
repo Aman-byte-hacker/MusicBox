@@ -127,7 +127,7 @@ ol {
 	font-weight: 700;
 	text-transform: uppercase;
 }
-}
+
 
 .section-title h1 {
 	font-size: 100px;
@@ -407,6 +407,7 @@ ol {
 	padding-top: 400px;
 	padding-bottom: 295px;
 	position: relative;
+	
 }
 
 .hero__text {
@@ -2719,6 +2720,10 @@ ol {
 	.hero {
 		padding-top: 190px;
 		padding-bottom: 200px;
+	}
+	.box-res{
+		width: 10px;
+		font-size: small;
 	}
 	.event .section-title:after {
 		display: none;
